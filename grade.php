@@ -13,8 +13,8 @@ $score = $_GET['score'];
     <style>
         h1{
             text-align: center;
-            font-size: 110px; 
-            color: #1D5E2E;
+            font-size: 120px; 
+            color: #0f0618;
         }
         p{
             text-align: center;
@@ -27,7 +27,7 @@ $score = $_GET['score'];
             transform: translate(-50%, -50%);
             width: 600px;
             height: 600px;
-            background: #EEF0EA;
+            background: #ebc5df;
             border-radius: 10px;
 
         }
@@ -36,7 +36,7 @@ $score = $_GET['score'];
             font-size: 40px; 
         }
         body{
-            background: linear-gradient(120deg, #dd3bfd, #3dccdf);
+            background: linear-gradient(120deg, #dd3bfd,);
             height: 100vh;
         }
     </style>
@@ -69,9 +69,6 @@ if($score >= 90){
 
 ?>
 </h1>
-<h4>
-    <?php echo "คุณ: ".$score." ".$score?>
-</h4>
 
  </div>
 </body>
