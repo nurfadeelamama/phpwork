@@ -19,7 +19,7 @@
     function displyStudent($name){
         echo $name;
     }
-        echo displyStudent("Waesong");
+        echo displyStudent("Nurfadeela");
 
         echo "<hr color = 'green'>";
 
